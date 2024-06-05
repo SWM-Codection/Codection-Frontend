@@ -12,7 +12,15 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': [
       'warn',
-      { allowConstantExport: true },
+      { 
+        // for shadcn-ui exports
+        allowExportNames: [
+          'badgeVariants', 
+          'buttonVariants',
+        ], 
+        allowConstantExport: true 
+      },
     ],
+    'indent': ['error', 2], 
   },
 }
