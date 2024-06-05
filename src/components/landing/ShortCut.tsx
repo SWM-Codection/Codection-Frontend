@@ -18,6 +18,7 @@ const ShortCutItem = styled.div`
   align-items: center;
   background-color: black; 
   color: white; 
+  cursor: pointer;
 `
 
 interface ShortCutProps extends HTMLAttributes<HTMLDivElement> {}

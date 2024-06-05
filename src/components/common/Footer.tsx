@@ -17,7 +17,8 @@ const footerContent = `
 `
 export const Footer = () => {
   return (
-    <FooterContainer className="xl:px-8">
+    <FooterContainer className="xl:px-8 px-2 pb-2 pt-4">
+      <div></div>
       <FooterTitle>Codection - 2024</FooterTitle>       
       <div className="whitespace-pre-line">
         <p>
